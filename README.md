@@ -6,18 +6,19 @@ My personal Vim snippets
 
  - trun (sub test)
  - brun (sub benchmark)
+ - fuzz (fuzz function)
 
 ## Installation
 
-Using Vundle:
+Using vim-plug:
 
 ```
-Plugin 'peterhellberg/snippets'
+Plug 'peterhellberg/snippets'
 ```
 
 ## License MIT
 
-Copyright © 2016 Peter Hellberg
+Copyright © 2016,2022 Peter Hellberg
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the "Software"),
