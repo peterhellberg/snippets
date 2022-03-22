@@ -15,3 +15,12 @@ b.Run("${1}", func(b *testing.B) {
 	${2:${VISUAL}}
 })
 endsnippet
+
+# fuzz function
+snippet fuzz "func FuzzFunction(f *testing.F) { ... }"
+func Fuzz${1:Function}(f *testing.F) {
+	f.Fuzz(func(t *testing.T, ${2:args}) {
+		${0:${VISUAL}}
+	})
+}
+endsnippet
